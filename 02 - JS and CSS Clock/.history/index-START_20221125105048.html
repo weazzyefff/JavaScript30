@@ -93,7 +93,7 @@
       const minutes = now.getMinutes();
       const minutesDeg = ((minutes/60)* 360) + 90;
       hourHand.style.transform = `rotate(${minutesDeg}deg)`;
-      console.log(`minutes: ${minutes}`);
+      console.log(`hours: ${minutes}`);
     }
 
     setInterval(setDate, 1000);
